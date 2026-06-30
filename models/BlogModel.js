@@ -11,11 +11,11 @@ const BlogSchema = mongoose.Schema({
         required:true
     },
     content:{
-        type:Text,
+        type:String,
         required:true
     },
     image_url:{
-        type:Text,
+        type:String,
         required:true,
         default : 'https://img.magnific.com/free-photo/tablet-which-you-can-read-blog_1134-226.jpg?semt=ais_hybrid&w=740&q=80'
     }

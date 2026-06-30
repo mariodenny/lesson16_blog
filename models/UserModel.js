@@ -18,7 +18,7 @@ const UserSchema = new mongoose.Schema({
         required:true
     },
     avatar:{
-        type:Text,
+        type:String,
         required:false,
         default:'https://ui-avatars.com/api/?background=random'
     }

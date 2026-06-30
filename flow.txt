@@ -24,7 +24,11 @@ v1 -> main features
 -> AuthRoutes -> for accessing AuthController logic -> done
 -> BlogRoutes -> for accessing BlogController logic -> done
 
+# Views : design all layouts (view engine : handlebars)
+ -> auth : login,register (page)
+ -> blog : dashboard, post_id , create_post (page)
 
+# app.js -> to connect all file and run the project
 
 
 
