@@ -1,0 +1,16 @@
+Title : BLOG
+CRUD 
+Make a post
+Post list
+Edit post
+Delete Post
+-> Blog post by id -> a page where we can see post detail
+
+-> User
+-> every user has their own post
+-> each of user can check other user post
+
+# Model -> Done
+-> UserModel : save user information -> id,name,email,password,avatar
+-> BlogModel : save blog post and detail -> id,userId,title,content,image_url
+v1 -> main features
