@@ -1,0 +1,18 @@
+import express from 'express'
+const router = express.Router()
+
+import {
+    login,
+    loginPage,
+    register,
+    registerPage,
+    logout
+} from '../controllers/AuthController.js'
+
+router.get('/login', loginPage)
+router.post('/login', login)
+router.get('/register', registerPage)
+router.post('/register', register)
+router.get('/logout', logout)
+
+export default router

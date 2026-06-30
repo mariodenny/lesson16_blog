@@ -14,3 +14,17 @@ Delete Post
 -> UserModel : save user information -> id,name,email,password,avatar
 -> BlogModel : save blog post and detail -> id,userId,title,content,image_url
 v1 -> main features
+
+# Controller
+-> AuthController -> Setting login,register,loginPage,registerPage,logout -> done
+-> BlogController -> CRUD Blog, get blog post by id
+ : Blogcontroller -> create done 
+
+# Routes : need middlewares 
+-> AuthRoutes -> for accessing AuthController logic -> done
+-> BlogRoutes -> for accessing BlogController logic -> done
+
+
+
+
+
